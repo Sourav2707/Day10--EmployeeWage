@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 namespace EmployeeWage
 {
-    public class Wages : IEmployeeWageForCompany
+    public class Wages //: IEmployeeWageForCompany
     {
         static int day_hr;
         ParticularCompany[] companyDetails;        //Array for storing the companies with a company as an object in every element of the array

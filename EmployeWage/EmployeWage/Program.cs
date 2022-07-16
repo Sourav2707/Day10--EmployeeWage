@@ -1,7 +1,8 @@
 ﻿//Already using class since starting
 using EmployeeWage;
 Console.WriteLine("Welcome to employee wage computation program");
-IEmployeeWageForCompany comp = new Wages();
+/*IEmployeeWageForCompany*/ 
+Wages comp = new Wages();
 comp.AddDetails("TATA", 200, 20, 8);
 comp.AddDetails("IBM", 300, 25, 9);
 comp.AddDetails("TCS", 200, 25, 9);
